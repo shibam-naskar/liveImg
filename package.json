@@ -1,0 +1,26 @@
+{
+  "name": "liveimg",
+  "version": "1.0.0",
+  "description": "live img is soultion for image hosting for free of cost and super fast . can host unlimited images. and its verry secure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibam-naskar/liveImg.git"
+  },
+  "keywords": [
+    "liveimg"
+  ],
+  "author": "Shibam Naskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibam-naskar/liveImg/issues"
+  },
+  "homepage": "https://github.com/shibam-naskar/liveImg#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "shortid": "^2.2.16"
+  }
+}
