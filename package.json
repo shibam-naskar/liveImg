@@ -1,6 +1,6 @@
 {
   "name": "liveimg",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "live img is soultion for image hosting for free of cost and super fast . can host unlimited images. and its verry secure.",
   "main": "index.js",
   "scripts": {

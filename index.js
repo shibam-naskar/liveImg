@@ -38,7 +38,7 @@ async function uploadImg(dataall) {
         return error;
       });
     
-      return datafinal;
+      return datafinal.download_url;
   }
 
 module.exports = uploadImg;
