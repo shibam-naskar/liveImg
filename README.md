@@ -1,2 +1,12 @@
-<h1 align="center">Awesome GitHub Profile README 
-<a href="https://www.producthunt.com/posts/awesome-github-profiles?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-awesome-github-profiles" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=277987&theme=light" alt="Awesome GitHub Profiles - Best curated list of developers readme, updated every 15 min | Product Hunt" style="width: 200px; height: 44px;" width="200" height="44" /></a></h1>
+<h1 align="center">LIVEIMG</h1>
+<h2>example</h2>
+
+```javascript
+const uploadImg = require('uploadimg');
+
+var liveUrl = uploadFileApi( YOUR_GITHUB_USERNAME, GITHUB_REPO_NAME, GITHUB_PERSONAL_ACCESSTOKEN, IMAGEDATA_BASE64);
+
+console.log(liveUrl);
+```
+<h2>How To Generette Github Access Token</h2>
+<img src="https://user-images.githubusercontent.com/39475600/148953390-7d07cc59-ee32-479b-93d0-b9d2a8e38115.gif"/>
