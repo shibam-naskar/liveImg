@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/shibam-naskar/liveImg#readme",
   "dependencies": {
-    "axios": "^0.24.0",
-    "shortid": "^2.2.16"
+    "axios": "^0.24.0"
   }
 }

@@ -1,9 +1,18 @@
 const axios = require('axios')
-const shortid = require('shortid');
+
+function getRandomString(length) {
+  var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-';
+  var result = '';
+  for ( var i = 0; i < length; i++ ) {
+      result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+  }
+  return result;
+}
 
 function uploadImg(username,repo,token, content) {
     var filetype = content.toString().split(',')[0].split(';')[0].split('/')[1];
     var filerealdata = content.toString().split(',')[1];
+    var _id = getRandomString(40);
     var data = JSON.stringify({
       message: "Uploaded by liveImg by shibam",
       content: `${filerealdata}`,
@@ -11,7 +20,7 @@ function uploadImg(username,repo,token, content) {
   
     var config = {
       method: "put",
-      url: `https://api.github.com/repos/${username}/${repo}/contents/${shortid.generate()}.${filetype.toLocaleLowerCase()}`,
+      url: `https://api.github.com/repos/${username}/${repo}/contents/${_id}.${filetype.toLocaleLowerCase()}`,
       headers: {
         Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
